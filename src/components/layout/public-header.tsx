@@ -53,9 +53,8 @@ export function PublicHeader() {
 
         <div className="flex items-center gap-3">
           <Button variant="ghost" size="sm" className="hidden sm:inline-flex">
-            Iniciar sesión
+            <Link href="/login">Iniciar sesión</Link>
           </Button>
-
           <Button size="sm">Empezar gratis</Button>
         </div>
       </SiteContainer>
